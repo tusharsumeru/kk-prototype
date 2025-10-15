@@ -148,7 +148,7 @@ export default function MyBookingScreen() {
                     <h4 className="font-semibold text-gray-800">Additional Information</h4>
                   </div>
                   <p className="text-gray-600 text-sm leading-relaxed">
-                    This consultation will provide you with detailed insights about your workplace energy and how to optimize it for success and prosperity. We'll analyze your personal horoscope combined with your workplace's energy patterns.
+                    This consultation will provide you with detailed insights about your workplace energy and how to optimize it for success and prosperity. We&apos;ll analyze your personal horoscope combined with your workplace&apos;s energy patterns.
                   </p>
                 </div>
               )}

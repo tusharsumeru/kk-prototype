@@ -47,9 +47,11 @@ export default function MobileScreen() {
           }}>
             <div className="flex flex-col items-center">
               <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-[14px] sm:rounded-[16px] overflow-hidden shadow-lg bg-white/90 backdrop-blur-sm border border-white/50 flex items-center justify-center">
-                <img
+                <Image
                   src="/images/InShot_20251015_135112564.jpg"
                   alt="Karmic Keran"
+                  width={80}
+                  height={80}
                   className="w-full h-full object-contain"
                 />
               </div>
@@ -64,9 +66,11 @@ export default function MobileScreen() {
                   <div className="absolute inset-0 bg-gradient-to-br from-purple-600 via-orange-500 to-blue-600 z-30 flex items-center justify-center animate-fadeIn">
                     <div className="text-center">
                       <div className="w-32 h-32 mx-auto mb-8 rounded-3xl bg-white/30 backdrop-blur-md border-2 border-white/40 flex items-center justify-center shadow-2xl animate-pulse">
-                        <img
+                        <Image
                           src="/images/InShot_20251015_135112564.jpg"
                           alt="Karmic Keran"
+                          width={80}
+                          height={80}
                           className="w-20 h-20 object-contain"
                         />
                       </div>
